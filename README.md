@@ -5,21 +5,14 @@ This GitHub contains the code used to run the experiments presented in a scienti
     ```
     conda create -n fl_env python=3.10 anaconda
     ```
-2. Add the necessary libraries (2 possibilities)
+2. Add the necessary libraries with pip
    - If you want to install a specific version of Flower :
       - You can use this command (example with version 1.4.0) : : `pip install flower==1.4.0` 
       - You have to change `parameters.py` and `__init__.py` in flower library from this folder : flower/src/py/flwr/common (see modification in this github : https://github.com/data-science-lover/flower.git)
-   - With anaconda : 
-   ```
-   conda install pytorch torchvision torchaudio -c pytorch
-   conda install tqdm
-   git clone https://github.com/data-science-lover/flower.git
-   cd flower
-   pip install .
-   ```
-   - With pip :
+
    ```
    pip install -r requirements.txt
+   pip install pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
    git clone https://github.com/data-science-lover/flower.git
    cd flower
    pip install .
