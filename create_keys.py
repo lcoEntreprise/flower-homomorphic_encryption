@@ -5,6 +5,7 @@ from going_modular import security
 
 """
 Script to create the public/private keys combination.
+The public key is used by the server to encrypt the data.
 """
 
 
