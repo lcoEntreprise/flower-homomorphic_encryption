@@ -1,9 +1,6 @@
 tqdm
 numpy
-flwr
 ray>=2.3.0
-pytorch
-torchvision
 matplotlib
 pillow
 scikit-learn
