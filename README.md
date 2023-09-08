@@ -1,6 +1,5 @@
 # Secure FL applied to medical imaging with fully homomorphic encryption
-This GitHub accompanies a scientific paper (to be published very soon) and a presentation given at Flower Summit 2023. 
-It contains the code used to run the experiments presented in the paper and the presentation.
+This GitHub contains the code used to run the experiments presented in a scientific paper (to be published very soon) and a [presentation given at Flower Summit 2023](https://youtu.be/pAvex7tpq2w?si=_sOmVMjiyA3cI0E5).
 ## Configure an environment
 1. Creating an environment
     ```
